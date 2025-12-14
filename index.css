@@ -125,17 +125,21 @@ nav {
     border-radius: 100px;
     z-index: 1000;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    background: rgba(5, 5, 5, 0.6);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
+    backdrop-filter: blur(25px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 nav.scrolled {
-    background: rgba(5, 5, 5, 0.95);
-    backdrop-filter: blur(20px);
-    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.08);
+    -webkit-backdrop-filter: blur(35px) saturate(200%);
+    backdrop-filter: blur(35px) saturate(200%);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), inset 0 0 0 1px rgba(255, 255, 255, 0.05);
     width: auto;
-    padding: 12px 25px;
+    padding: 12px 18px;
     top: 15px;
     gap: 20px;
 }
@@ -207,7 +211,7 @@ nav button {
     font-size: 15px;
     font-weight: 600;
     border: none;
-    padding: 10px 22px;
+    padding: 15px 22px;
     border-radius: 35px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 7px var(--primary-glow);
@@ -216,7 +220,7 @@ nav button {
 
 nav.scrolled button {
     font-size: 14px;
-    padding: 8px 18px;
+    padding: 12px 18px;
 }
 
 nav button:hover {
@@ -1529,11 +1533,19 @@ body:hover .cursor-outline {
     nav {
         width: 92%;
         padding: 15px 4%;
+        background: rgba(255, 255, 255, 0.08);
+        -webkit-backdrop-filter: blur(25px) saturate(180%);
+        backdrop-filter: blur(25px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     }
 
     nav.scrolled {
         width: 88%;
         padding: 15px 4%;
+        background: rgba(255, 255, 255, 0.1);
+        -webkit-backdrop-filter: blur(35px) saturate(200%);
+        backdrop-filter: blur(35px) saturate(200%);
     }
 
     nav .navbar {
@@ -1620,11 +1632,21 @@ body:hover .cursor-outline {
         padding: 10px 15px;
         border-radius: 50px;
         top: 15px;
+        background: rgba(255, 255, 255, 0.08);
+        -webkit-backdrop-filter: blur(25px) saturate(180%);
+        backdrop-filter: blur(25px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     }
 
     nav.scrolled {
         top: 10px;
         padding: 10px 12px;
+        background: rgba(255, 255, 255, 0.1);
+        -webkit-backdrop-filter: blur(35px) saturate(200%);
+        backdrop-filter: blur(35px) saturate(200%);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
     }
 
     nav .logo a {
@@ -1895,12 +1917,20 @@ body:hover .cursor-outline {
     nav {
         width: 96%;
         padding: 10px 12px;
+        background: rgba(255, 255, 255, 0.08);
+        -webkit-backdrop-filter: blur(25px) saturate(180%);
+        backdrop-filter: blur(25px) saturate(180%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     }
 
     nav.scrolled {
         width: 75%;
         top: 10px;
         padding: 10px 12px;
+        background: rgba(255, 255, 255, 0.1);
+        -webkit-backdrop-filter: blur(35px) saturate(200%);
+        backdrop-filter: blur(35px) saturate(200%);
     }
 
     nav .logo a {
@@ -1909,7 +1939,7 @@ body:hover .cursor-outline {
 
     nav button {
         font-size: 13px;
-        padding: 6px 12px;
+        padding: 10px 12px;
     }
 
     .section-title {
