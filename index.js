@@ -233,8 +233,8 @@ const projectsData = {
         image: "Assests/logo.png", // Placeholder
         description: "An AI-powered tool that generates pitch decks and performs budget analysis for startups. It leverages natural language processing to extract key insights from user inputs and creates professional-grade presentations automatically.",
         tech: ["Python", "React", "FastAPI", "OpenAI API", "Pandas"],
-        github: "https://github.com/yourusername/pitchpro",
-        live: "https://pitchpro-demo.com"
+        github: "https://github.com/Srikar-Miriyala/pitchPRO",
+        
     },
     "MediLink": {
         title: "MediLink",
@@ -242,8 +242,8 @@ const projectsData = {
         image: "Assests/logo.png", // Placeholder
         description: "A comprehensive medical history synchronization platform. It allows healthcare providers to securely access and update patient records in real-time, ensuring seamless care continuity across different facilities.",
         tech: ["SQL", "Node.js", "Express", "React", "Docker"],
-        github: "https://github.com/yourusername/medilink",
-        live: "https://medilink-app.com"
+        github: "https://github.com/Srikar-Miriyala/MediLink",
+        
     },
     "UniAI": {
         title: "UniAI",
@@ -251,8 +251,8 @@ const projectsData = {
         image: "Assests/logo.png", // Placeholder
         description: "An intelligent chatbot designed to streamline the university admission process. It answers student queries, guides them through application steps, and provides personalized recommendations based on their profile.",
         tech: ["Python", "TensorFlow", "Flask", "React", "NLP"],
-        github: "https://github.com/yourusername/uniai",
-        live: "https://uniai-chat.com"
+        github: "https://github.com/Srikar-Miriyala/UniAI",
+        
     },
     "StockTrend": {
         title: "StockTrend",
@@ -260,8 +260,8 @@ const projectsData = {
         image: "Assests/logo.png", // Placeholder
         description: "A sophisticated stock market prediction system using advanced time series analysis. It predicts future stock trends with high accuracy by analyzing historical data and market sentiment.",
         tech: ["Python", "LSTM", "Scikit-learn", "Plotly", "Yahoo Finance API"],
-        github: "https://github.com/yourusername/stocktrend",
-        live: "https://stocktrend-analytics.com"
+        github: "https://github.com/Srikar-Miriyala/StockTrend",
+       
     },
     "deskMATE": {
         title: "deskMATE",
@@ -269,8 +269,8 @@ const projectsData = {
         image: "Assests/logo.png", // Placeholder
         description: "A desktop agent and personal assistant that automates daily tasks. From scheduling meetings to organizing files, deskMATE uses machine learning to learn user habits and improve productivity.",
         tech: ["Electron", "Python", "OpenCV", "PyAutoGUI", "SQLite"],
-        github: "https://github.com/yourusername/deskmate",
-        live: "https://deskmate-app.com"
+        github: "https://github.com/Srikar-Miriyala/deskMATE",
+        
     }
 };
 
